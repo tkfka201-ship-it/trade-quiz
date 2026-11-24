@@ -3,8 +3,8 @@
    data/ is never touched here: the app fetches it itself and keeps its own copy in localStorage.
    build.py app fills in the build id and the asset list below; a new build changes this file, so phones pick it up. */
 'use strict';
-var BUILD = '788733c762';
-var ASSETS = ["assets/app.15d7af11.css", "assets/core.e89d92f4.js", "assets/app.d1c34c99.js"];
+var BUILD = '960927bc52';
+var ASSETS = ["assets/app.15d7af11.css", "assets/core.0d3be30b.js", "assets/app.1a960e8f.js"];
 var PREFIX = 'tq-shell-';
 var CACHE = PREFIX + BUILD;
 var PAGE = './';
